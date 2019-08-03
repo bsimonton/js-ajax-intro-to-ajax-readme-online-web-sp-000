@@ -14,3 +14,6 @@ function getRepositories() {
   req.open('GET', 'https://api.github.com/users/octocat/repos');
   req.send();
 }
+
+
+
